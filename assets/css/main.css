@@ -15,7 +15,7 @@
   src: url('Programme-Bold.eot');
   src: local('Programme Bold'), local('Programme-Bold'),
     url('Programme-Bold.eot?#iefix') format('embedded-opentype'),
-    url('Programme-Bold.woff2') format('woff2'),
+    url('Programme-Bold.wof2') format('woff2'),
     url('Programme-Bold.woff') format('woff'),
     url('Programme-Bold.ttf') format('truetype');
   font-weight: bold;
@@ -51,6 +51,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .lyrics {
@@ -79,13 +81,14 @@ body {
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  max-width: 350px;
+  max-width: 280px;
   font-size: 14pt;
   color: #000000;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   background: #eee;
+  z-index: 10;
 }
 
 .explanation {
@@ -104,21 +107,39 @@ body {
 .song-metadata {
   position: relative;
   display: flex;
+  flex-direction: column;
   background: linear-gradient(#F1645B, #C21F32);
-  height: 250px;
+  min-height: 250px;
   align-items: center;
   justify-content: center;
 }
 
 .song-metadata-text {
   text-align: left;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .album-art {
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 500px) {
+  .song-metadata {
+    flex-direction: row;
+  }
+
+  .song-metadata-text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .album-art {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .song-title {
