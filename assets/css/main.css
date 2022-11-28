@@ -1,35 +1,35 @@
 @font-face {
   font-family: 'Programme';
-  src: url('Programme-Light.eot');
+  src: url('../font/Programme-Light.eot');
   src: local('Programme Light'), local('Programme-Light'),
-    url('Programme-Light.eot?#iefix') format('embedded-opentype'),
-    url('Programme-Light.woff2') format('woff2'),
-    url('Programme-Light.woff') format('woff'),
-    url('Programme-Light.ttf') format('truetype');
+    url('../font/Programme-Light.eot?#iefix') format('embedded-opentype'),
+    url('../font/Programme-Light.woff2') format('woff2'),
+    url('../font/Programme-Light.woff') format('woff'),
+    url('../font/Programme-Light.ttf') format('truetype');
   font-style: normal;
   font-weight: lighter;
 }
 
 @font-face {
   font-family: 'Programme';
-  src: url('Programme-Bold.eot');
+  src: url('../font/Programme-Bold.eot');
   src: local('Programme Bold'), local('Programme-Bold'),
-    url('Programme-Bold.eot?#iefix') format('embedded-opentype'),
-    url('Programme-Bold.wof2') format('woff2'),
-    url('Programme-Bold.woff') format('woff'),
-    url('Programme-Bold.ttf') format('truetype');
+    url('../font/Programme-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/Programme-Bold.wof2') format('woff2'),
+    url('../font/Programme-Bold.woff') format('woff'),
+    url('../font/Programme-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Programme';
-  src: url('Programme-Regular.eot');
+  src: url('../font/Programme-Regular.eot');
   src: local('Programme'), local('Programme-Regular'),
-    url('Programme-Regular.eot?#iefix') format('embedded-opentype'),
-    url('Programme-Regular.woff2') format('woff2'),
-    url('Programme-Regular.woff') format('woff'),
-    url('Programme-Regular.ttf') format('truetype');
+    url('../font/Programme-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/Programme-Regular.woff2') format('woff2'),
+    url('../font/Programme-Regular.woff') format('woff'),
+    url('../font/Programme-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
