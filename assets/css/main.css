@@ -192,9 +192,11 @@ body {
   color: #fff;
   position: absolute;
   top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }
 
 @media only screen and (min-width: 500px) {
